@@ -1,17 +1,15 @@
-# 智慧农业系统
+# 植物监测系统
 
 ## 项目描述
 
-利用传感器模拟和 IoT 技术，实时监测植物的生长状态，包括土壤PH、温度、湿度、水质等数据，并通过设备卡片和echart展示。
+这是一个植物监测系统，利用传感器模拟和 IoT 技术，实时监测植物的生长状态，包括土壤PH、温度、湿度、水质等数据，并通过 Web 应用展示。
 
 ## 项目功能
- 用户角色分为管理员两类，管理员负责修改其他人员的信息。
-  农户：
-- 实时监测植物的生长数据并在卡片上展示检测的时间以及评判后的结果。
+
+- 实时监测植物的生长数据。
 - 支持多个传感器设备的数据采集。
-- 设备卡片控制设备开启/关闭检测。
-  管理员：
-- 对其他人员的信息增删改查。
+- 提供实时动态可视化图表展示数据。
+
 ## 技术栈
 
 - 前端：Vue.js，Element-Plus
@@ -29,8 +27,8 @@ CREATE DATABASE agriculture;
  mysql -u username -p agriculture < crop.sql
  mysql -u username -p agriculture < user.sql
  mysql -u username -p agriculture < device.sql
- mysql -u username -p agriculture < usercrop.sql
  mysql -u username -p agriculture < userdevice.sql
+ mysql -u username -p agriculture < usercrop.sql
  mysql -u username -p agriculture < sensor_data.sql
  ### 2.MySql账户替换
 打开后端项目中的 src/main/resources/application.properties 文件，
