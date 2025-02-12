@@ -1,0 +1,12 @@
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (61, 'ee', NULL, 135);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (62, 'ee', NULL, 136);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (63, 'ee', NULL, 137);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (64, 'ee', NULL, 138);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (65, 'ee', NULL, 139);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (67, 'ddd', NULL, 141);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (69, 'cca', NULL, 143);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (70, 'cca', NULL, 144);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (71, 'ee', NULL, 149);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (72, 'ee', NULL, 150);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (73, 'qwe', NULL, 151);
+INSERT INTO `usercrop` (`id`, `username`, `password`, `cropid`) VALUES (74, 'hhh', NULL, 152);
